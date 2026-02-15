@@ -109,10 +109,10 @@ echo Arquivo selecionado: !arquivoSelecionado!
 echo ===================================================
 echo.
 echo Comandos disponiveis:
-echo 2 - Executar com Node
-echo 3 - Editar com VSC
-echo 4 - Deletar [PROTEGIDO]
-echo 5 - Voltar
+echo 1 - Executar com Node
+echo 2 - Editar com VSC
+echo 3 - Deletar [PROTEGIDO]
+echo 4 - Voltar
 echo.
 set /p cmdEscolha=Digite o numero do comando: 
 
@@ -148,3 +148,4 @@ if "%cmdEscolha%"=="4" (
 )
 
 goto menuComandos
+
